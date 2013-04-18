@@ -23,10 +23,10 @@
     <ignored path="babar.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366233390510" ignored="false" />
-    <file path="/BabarService.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366239991661" ignored="false" />
+    <file path="/BabarService.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366244002626" ignored="false" />
     <file path="/TaskView.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366235384932" ignored="false" />
     <file path="/LaunchActivity.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366236495474" ignored="false" />
-    <file path="/main.xml" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366235503694" ignored="false" />
+    <file path="/main.xml" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366243817483" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366235540870" ignored="false" />
     <file path="/fragment.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366235781021" ignored="false" />
     <file path="$PROJECT_DIR$/gen/io/entropy/babar/BuildConfig.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366237190505" ignored="false" />
@@ -107,7 +107,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+            <state line="10" column="42" selection-start="403" selection-end="403" vertical-scroll-proportion="-5.5555553">
               <folding />
             </state>
           </provider>
@@ -116,8 +116,13 @@
       <file leaf-file-name="BabarService.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/BabarService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="24" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.80449826">
-              <folding />
+            <state line="44" column="42" selection-start="1619" selection-end="1619" vertical-scroll-proportion="0.42906573">
+              <folding>
+                <element signature="e#1299#1645#0" expanded="true" />
+                <element signature="e#1634#1635#0" expanded="true" />
+                <element signature="e#1685#2524#0" expanded="true" />
+                <element signature="e#2513#2514#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,15 +131,6 @@
         <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/elephant.png">
           <provider selected="true" editor-type-id="images">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pulse.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/anim/pulse.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="29" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -156,6 +152,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="pulse.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/anim/pulse.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="29" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -166,11 +171,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/io/entropy/babar/LaunchActivity.java" />
         <option value="$PROJECT_DIR$/src/io/entropy/babar/TaskView.java" />
         <option value="$PROJECT_DIR$/res/anim/pulse.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/io/entropy/babar/BabarService.java" />
       </list>
     </option>
@@ -246,7 +251,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -335,6 +339,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -351,11 +356,11 @@
     <property name="project.structure.side.proportion" value="0.17497103" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Android Application.babar">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -474,6 +479,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b91e4578-e0db-427b-9b91-265ece360f7f" name="Default" comment="" />
@@ -488,6 +510,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.670354" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -502,13 +525,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.670354" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -578,6 +600,37 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/BabarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1299#1645#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1685#2524#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/elephant.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/anim/pulse.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="29" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="77" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/LaunchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
@@ -598,7 +651,12 @@
     <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/BabarService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="25" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#1299#1645#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1685#2524#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -609,33 +667,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="77" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/LaunchActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/TaskView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="42" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -657,10 +691,39 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/TaskView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="42" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="42" selection-start="403" selection-end="403" vertical-scroll-proportion="-5.5555553">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/LaunchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/BabarService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="24" selection-start="1276" selection-end="1276" vertical-scroll-proportion="0.80449826">
-          <folding />
+        <state line="44" column="42" selection-start="1619" selection-end="1619" vertical-scroll-proportion="0.42906573">
+          <folding>
+            <element signature="e#1299#1645#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1685#2524#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

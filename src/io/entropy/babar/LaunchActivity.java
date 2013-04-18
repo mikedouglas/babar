@@ -1,7 +1,6 @@
 package io.entropy.babar;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 
 public class LaunchActivity extends Activity {
@@ -12,7 +11,17 @@ public class LaunchActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+    }
 
-        startService(new Intent(this, BabarService.class));
+    @Override
+    protected void onResume() {
+        super.onResume();
+        // hide elephants
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        // show elephants
     }
 }

@@ -5,10 +5,8 @@ import android.content.Intent;
 import android.graphics.PixelFormat;
 import android.os.IBinder;
 import android.util.Log;
-import android.view.View;
 import android.view.WindowManager;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class BabarService extends Service {
@@ -31,20 +29,22 @@ public class BabarService extends Service {
 
         final WindowManager wm = (WindowManager)getSystemService(WINDOW_SERVICE);
         WindowManager.LayoutParams lp = new WindowManager.LayoutParams(
-                300, 300,
+                150, 150,
                 WindowManager.LayoutParams.TYPE_PRIORITY_PHONE,
                 WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED |
                 WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE |
                 WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
                 PixelFormat.TRANSLUCENT);
 
+        /*
         elephants = new ArrayList<Elephant>();
-        elephants.add(new Elephant(this));
+        elephants.add(new Elephant(this, "TaskProvider Title"));
+        elephants.add(new Elephant(this, "TaskProvider Title 2"));
 
         for (View elephant : elephants) {
-            lp.y -= Math.random() * 300;
             wm.addView(elephant, lp);
         }
+        */
     }
 
     @Override

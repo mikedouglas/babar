@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+
+    android:useDefaultMargins="true"
+    android:alignmentMode="alignBounds"
+
+    android:columnCount="2">
+    <TextView
+        android:text="Task:"
+        android:textSize="18sp"
+        android:layout_gravity="right"
+        />
+
+    <EditText
+        android:layout_gravity="fill_horizontal"
+        android:id="@+id/task_description"
+        />
+
+    <TextView
+        android:text="Due Date:"
+        android:textSize="18sp"
+        android:layout_gravity="right|center_vertical"
+        />
+
+    <DatePicker
+        android:calendarViewShown="false"
+        android:id="@+id/task_due_date"
+        />
+    <Button
+        android:layout_gravity="fill_horizontal"
+        android:id="@+id/cancel_dialog_btn"
+        android:text="Cancel" />
+    <Button
+        android:layout_gravity="fill_horizontal"
+        android:id="@+id/add_task_btn"
+        android:text="Add" />
+</GridLayout>

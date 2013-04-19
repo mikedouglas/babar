@@ -9,9 +9,9 @@
     <application
         android:name=".BabarApp"
         android:label="@string/app_name"
-        android:icon="@drawable/ic_launcher">
+        android:icon="@drawable/elephant">
         <activity
-            android:name="LaunchActivity"
+            android:name=".TaskListActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -20,6 +20,11 @@
         </activity>
 
         <service
-            android:name=".BabarService" />
+            android:name=".BabarService">
+        </service>
+
+        <provider android:name=".TaskProvider"
+                    android:authorities="io.entropy.babar.provider.Tasks">
+        </provider>
     </application>
 </manifest>

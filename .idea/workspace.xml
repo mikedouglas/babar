@@ -26,7 +26,7 @@
     <list default="true" id="b91e4578-e0db-427b-9b91-265ece360f7f" name="Default" comment="" />
     <ignored path="babar.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/BabarService.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366343440748" ignored="false" />
+    <file path="/BabarService.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366408249992" ignored="false" />
     <file path="/TaskView.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366235384932" ignored="false" />
     <file path="/LaunchActivity.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366403695398" ignored="false" />
     <file path="/main.xml" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366404102565" ignored="false" />
@@ -44,7 +44,7 @@
     <file path="/CreateTaskActivity.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366406303923" ignored="false" />
     <file path="/create_task.xml" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366399451784" ignored="false" />
     <file path="/Task.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366403068619" ignored="false" />
-    <file path="/TaskListActivity.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366403434366" ignored="false" />
+    <file path="/TaskListActivity.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366408029378" ignored="false" />
     <file path="/TaskListFragment.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366407635608" ignored="false" />
     <file path="/TaskProvider.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366406870253" ignored="false" />
     <file path="/TaskDBHelper.java" changelist="b91e4578-e0db-427b-9b91-265ece360f7f" time="1366404779300" ignored="false" />
@@ -147,7 +147,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/io/entropy/babar/TaskListFragment.java" line="70" class="io.entropy.babar.TaskListFragment" package="io.entropy.babar">
+      <breakpoint url="file://$PROJECT_DIR$/src/io/entropy/babar/BabarService.java" line="79" class="io.entropy.babar.BabarService" package="io.entropy.babar">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -184,7 +184,16 @@
       <file leaf-file-name="TaskListActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/TaskListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="48" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+            <state line="46" column="40" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BabarService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/BabarService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="20" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.83633095">
               <folding />
             </state>
           </provider>
@@ -202,10 +211,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskListFragment.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TaskListFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/TaskListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="23" selection-start="2242" selection-end="2242" vertical-scroll-proportion="0.8111511">
+            <state line="70" column="0" selection-start="2674" selection-end="2674" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1503#1970#0" expanded="true" />
@@ -270,18 +279,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_task.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/create_task.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="38" selection-start="791" selection-end="791" vertical-scroll-proportion="-12.925926">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -295,10 +292,8 @@
         <option value="$PROJECT_DIR$/src/io/entropy/babar/LaunchActivity.java" />
         <option value="$USER_HOME$/Library/Caches/IdeaIC12/compile-server/babar_990f9886/targets/java-production/babar/android/generated_sources/aapt/io/entropy/babar/R.java" />
         <option value="$PROJECT_DIR$/res/menu/tasks.xml" />
-        <option value="$PROJECT_DIR$/src/io/entropy/babar/BabarService.java" />
         <option value="$PROJECT_DIR$/src/io/entropy/babar/CreateTaskActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/create_task.xml" />
-        <option value="$PROJECT_DIR$/src/io/entropy/babar/TaskListActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/io/entropy/babar/Task.java" />
         <option value="$PROJECT_DIR$/src/io/entropy/babar/TaskDBHelper.java" />
@@ -308,6 +303,8 @@
         <option value="$PROJECT_DIR$/src/io/entropy/babar/TaskProvider.java" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/io/entropy/babar/TaskListFragment.java" />
+        <option value="$PROJECT_DIR$/src/io/entropy/babar/TaskListActivity.java" />
+        <option value="$PROJECT_DIR$/src/io/entropy/babar/BabarService.java" />
       </list>
     </option>
   </component>
@@ -795,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/BabarService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="10" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.64928055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
@@ -863,13 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/TaskListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="48" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/TaskMetaData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="75" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
@@ -886,9 +869,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/TaskListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="40" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/TaskListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="23" selection-start="2242" selection-end="2242" vertical-scroll-proportion="0.8111511">
+        <state line="70" column="0" selection-start="2674" selection-end="2674" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1503#1970#0" expanded="true" />
@@ -896,6 +886,13 @@
             <element signature="e#2017#2215#0" expanded="true" />
             <element signature="e#2196#2197#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/entropy/babar/BabarService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="20" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.83633095">
+          <folding />
         </state>
       </provider>
     </entry>

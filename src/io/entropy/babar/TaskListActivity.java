@@ -1,12 +1,21 @@
 package io.entropy.babar;
 
 import android.app.Activity;
+import android.content.ComponentName;
+import android.content.Intent;
+import android.content.ServiceConnection;
 import android.os.Bundle;
+import android.os.IBinder;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
 public class TaskListActivity extends Activity {
+    public static final String TAG = TaskListActivity.class.getName();
+
+    private ServiceConnection mServiceConnection;
+
     /**
      * Called when the activity is first created.
      */
@@ -20,12 +29,22 @@ public class TaskListActivity extends Activity {
     protected void onResume() {
         super.onResume();
         // hide elephants
+        bindService(new Intent(this, BabarService.class),
+                mServiceConnection = new ServiceConnection() {
+                    public void onServiceConnected(ComponentName name, IBinder service) {
+                        Log.i(TAG, "onServiceConnected");
+                    }
+
+                    public void onServiceDisconnected(ComponentName name) {
+                        Log.i(TAG, "onServiceDisconnected");
+                    }
+                }, 0);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        // show elephants
+        unbindService(mServiceConnection);
     }
 
     @Override

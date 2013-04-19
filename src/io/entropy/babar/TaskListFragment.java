@@ -1,12 +1,14 @@
 package io.entropy.babar;
 
+import android.app.AlertDialog;
 import android.app.ListFragment;
 import android.app.LoaderManager;
 import android.content.CursorLoader;
+import android.content.DialogInterface;
 import android.content.Loader;
 import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
@@ -33,8 +35,27 @@ public class TaskListFragment extends ListFragment implements LoaderManager.Load
     }
 
     @Override
-    public void onListItemClick(ListView l, View v, int position, long id) {
-        Log.i("FragmentComplexList", "Item clicked: " + id);
+    public void onListItemClick(ListView l, View v, int position, final long id) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        builder.setMessage("Are you sure you've completed this task?")
+                .setTitle("Complete Task")
+                .setPositiveButton("Complete", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        getActivity().getContentResolver().delete(
+                                Uri.withAppendedPath(TaskMetaData.CONTENT_URI, String.valueOf(id)),
+                                null,
+                                null
+                        );
+                        dialog.dismiss();
+                    }
+                })
+                .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+
+        builder.show();
     }
 
     public Loader<Cursor> onCreateLoader(int id, Bundle args) {

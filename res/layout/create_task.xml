@@ -19,6 +19,8 @@
     <EditText
         android:layout_gravity="fill_horizontal"
         android:id="@+id/task_description"
+        android:singleLine="true"
+        android:inputType="textCapSentences"
         />
 
     <TextView

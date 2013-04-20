@@ -19,7 +19,7 @@ public class TaskListFragment extends ListFragment implements LoaderManager.Load
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        setEmptyText("No tasks");
+        setEmptyText("No tasks. Weeeeee!!!");
 
         mAdapter = new SimpleCursorAdapter(getActivity(),
                 android.R.layout.two_line_list_item,

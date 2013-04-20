@@ -34,7 +34,7 @@ public class CreateTaskDialog extends DialogFragment {
                 ContentValues contentValues = new ContentValues();
                 contentValues.put(TaskMetaData.TaskTable.DESCRIPTION, description.getText().toString());
                 contentValues.put(TaskMetaData.TaskTable.DUE_DATE,
-                        dueDatePicker.getYear() + "/" + dueDatePicker.getMonth() + "/" + dueDatePicker.getDayOfMonth());
+                        dueDatePicker.getYear() + "/" + (dueDatePicker.getMonth() + 1) + "/" + dueDatePicker.getDayOfMonth());
 
                 getActivity().getContentResolver().insert(
                         TaskMetaData.CONTENT_URI,
